@@ -47,9 +47,11 @@ start_checks   # Run pre-launch system checks
 launch         # Start rocket simulation
 fast_forward X # Skip X seconds instantly
 exit           # Quit the simulation
-
+```
 
 **Run locally:**
+```bash
 1. npm install
 2. npm run start (for patterns)
-3. npm run rocket (for simulation)
+3. npm run rocket (for rocket simulation)
+```
