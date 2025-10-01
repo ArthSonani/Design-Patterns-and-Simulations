@@ -10,7 +10,7 @@ const enhancedFormat = printf(({
   message, 
   timestamp, 
   stack, 
-  service = 'design-patterns-app',
+  service = 'DP-APP',
   operation,
   userId,
   correlationId 
@@ -36,7 +36,7 @@ export const logger = winston.createLogger({
     timestamp({ format: 'YYYY-MM-DD HH:mm:ss.SSS' }),
     enhancedFormat
   ),
-  defaultMeta: { service: 'design-patterns-app' },
+  defaultMeta: { service: 'DP-APP' },
   transports: [
     // Console transport with colors
     new winston.transports.Console({
