@@ -49,7 +49,7 @@ fast_forward X # Skip X seconds instantly
 exit           # Quit the simulation
 
 
-Run locally:
+**Run locally:**
 1. npm install
 2. npm run start (for patterns)
 3. npm run rocket (for simulation)
