@@ -1,0 +1,20 @@
+{
+  "name": "design-patterns-and-simulations",
+  "version": "1.0.0",
+  "description": "TypeScript demos for 6 design pattern use-cases (2 behavioral, 2 creational, 2 structural) and one mini project simulating a simple rocket launch system.",
+  "main": "dist/main.js",
+  "scripts": {
+    "rocket": "ts-node src/rocket-simulator/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && node dist/main.js",
+    "dev": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.129",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
